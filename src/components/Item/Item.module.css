@@ -1,0 +1,68 @@
+img {
+    max-width: 400px;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.wrapper {
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pinkLine {
+    border-bottom: 2px solid #8b2dc2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.btnDiv {
+    position: absolute;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+.btn {
+    background: #8b2dc2;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 40px;
+    text-align: center;
+    border: 1px solid #8b2dc2;
+    cursor: pointer;
+    padding: 7px 14px;
+    font-weight: 400;
+}
+
+.disableBtn{
+    background: #cccccc;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 40px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    padding: 7px 14px;
+    font-weight: 400;
+}
+
+.radioWrapper{
+    font-size: 18px;
+}
+
+p span, label span{
+    font-weight: bold;
+}
